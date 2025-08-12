@@ -1,0 +1,83 @@
+<div class="circle"></div>
+<div class="bot-left"></div>
+<div class="bot-right"></div>
+
+<div class="right-circle"></div>
+<div class="left-circle"></div>
+
+
+<style>
+  body{
+    background:#B673A6;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:20px;  
+  }
+  .circle {
+    position:absolute;
+    left:50%;
+    top:44%;         
+    width:40px;
+    height:40px;
+    transform:translateX(-50%);
+    background:#D9D9D9;
+    border-radius:50%;
+    z-index:3;
+  }
+  .bot-right{
+    border: solid 30px #D9D9D9;
+    position:absolute;
+    left:7%;
+    top:50%;         
+    width:200px;
+    height:200px;
+    transform:translateX(-50%);
+    background:#619EBF;
+    border-radius:13%;
+    z-index:3;
+  }
+  .bot-left{
+    border: solid 30px #D9D9D9;
+    position:absolute;
+    left:93%;
+    top:50%;         
+    width:200px;
+    height:200px;
+    transform:translateX(-50%);
+    background:#619EBF;
+    border-radius:13%;
+    z-index:3;
+  }
+  .right-circle {
+    position:absolute;
+    left:31%;
+    top:53%;         
+    width:40px;
+    height:40px;
+    transform:translateX(-50%);
+    background:#619EBF;
+    border-radius:50%;
+    z-index:3;
+  }
+  .left-circle {
+    position:absolute;
+    left:69%;
+    top:53%;         
+    width:40px;
+    height:40px;
+    transform:translateX(-50%);
+    background:#619EBF;
+    border-radius:50%;
+    z-index:3;
+  }
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
